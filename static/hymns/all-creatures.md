@@ -1,4 +1,4 @@
-## All Creatures
+
 
 All creatures of our God and King 
 Lift up your voice and with us sing, 
@@ -31,4 +31,3 @@ Let all things their Creator bless
 And worship Him in humbleness, 
 O praise Him! Alleluia!
 
-##### Saint Francis of Assisi, Public Domain

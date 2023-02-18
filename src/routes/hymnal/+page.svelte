@@ -11,16 +11,45 @@
 --->
 
 <script lang="ts">
+
+    import Fuse from "fuse.js"
+
     import Hymnal from "$lib/util/HymnalManifest"
 
+    let results = Hymnal
+    let searchQuerey = ""
+
+    const fuse = new Fuse(results, {
+        keys: ["title", "index"]
+    })
+
+    // console.log(fuse.search(""))
+
+    const handleSearch = () => {
+        // console.log(fuse.search(searchQuerey).map((h, i) => {
+        //     return {
+        //         ...h.item
+        //     }
+        // }))
+
+        if (searchQuerey == "") {
+            results = Hymnal
+        } else {
+            results = fuse.search(searchQuerey).map((h, i) => {
+                return {
+                    ...h.item
+                }
+            })
+        }
+    }
 
     
 </script>
 
 <div class="p-2 mb-9">
     <div class="rounded-md bg-gray-100 p-2 space-y-5">
-        <input type="text" placeholder="Search for a hymn by number or name" class="input input-bordered w-full" />
-        <button class="btn w-full">Search</button>
+        <input type="text" placeholder="Search for a hymn by number or name" class="input input-bordered w-full" bind:value={searchQuerey} on:input={handleSearch}/>
+        <button class="btn w-full" on:click={handleSearch}>Search</button>
     </div>
 </div>
 
@@ -32,7 +61,7 @@
         <p class="font-bold text-xl" >Page</p>
     </div>
 </div>
-{#each Hymnal as hymn}
+{#each results as hymn}
     <a href={`/hymnal/${hymn.slug}`} class="w-full flex justify-between p-5 border-b even:bg-gray-50">
         <div class="">
             <h3 class="text-xl">{hymn.title}</h3>

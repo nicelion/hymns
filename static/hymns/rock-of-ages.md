@@ -1,0 +1,27 @@
+Rock of Ages, cleft for me 
+Let me hide myself in Thee 
+Let the water and the blood 
+From Thy wounded side which flowed 
+Be of sin the double cure 
+Save from wrath and make me pure
+
+Not the labor of my hands 
+Can fulfill Thy law’s demands 
+Could my zeal no respite know 
+Could my tears forever flow 
+All for sin could not atone 
+Thou must save, and Thou alone
+
+Nothing in my hand I bring 
+Simply to the cross I cling 
+Naked, come to Thee for dress 
+Helpless look to Thee for grace 
+Foul, I to the fountain fly 
+Wash me, Savior, or I die
+
+While I draw this fleeting breath, 
+When mine eyes shall close in death 
+When I soar to worlds unknown 
+See Thee on Thy judgment throne 
+Rock of Ages, cleft for me 
+Let me hide myself in Thee

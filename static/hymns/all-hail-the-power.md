@@ -1,4 +1,4 @@
-## All Hail The Power
+
 
 All hail the power of Jesus’ Name! Let angels prostrate fall
 Bring forth the royal diadem, and crown Him Lord of all 
@@ -16,4 +16,3 @@ O that, with yonder sacred throng, we at His feet may fall
 We’ll join the everlasting song, and crown Him Lord of all
  We’ll join the everlasting song, and crown Him Lord of all
 
-##### Edward Perronet, Public Domain

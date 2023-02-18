@@ -48,6 +48,27 @@ const Hymnal : [Hymn] = [
         author: "Edward Perronet",
         slug: "all-hail-the-power"
     },
+    {
+        title: "Amazing Grace",
+        index: 16,
+        license: "Public Domain",
+        author: "John Newton",
+        slug: "amazing-grace"
+    },
+    {
+        title: "Angel Band",
+        index: 16,
+        license: "Public Domain",
+        author: "Jefferson Hascall",
+        slug: "angel-band"
+    },
+    {
+        title: "Angels We Have Heard On High",
+        index: 17,
+        license: "Public Domain",
+        author: "Anonymous",
+        slug: "angels-we-have-heard-on-high"
+    }
 ]
 
 export default Hymnal

@@ -11,14 +11,21 @@
 */
 
 import type { PageLoad } from './$types';
+import Hymnal from '$lib/util/HymnalManifest';
+import type { Hymn } from '$lib/util/types/Hymnal';
 
 export const load = (async ({params, fetch}) => {
     console.log(params);
     const res = await fetch(`/hymns/${params.slug}.md`)
     const item = await res.text()
 
-    console.log(item);
+    // console.log(item);
     
+    let info: Hymn = Hymnal.filter(item => item.slug == params.slug)[0]
 
-    return {item};
+    
+    return {
+        ...info,
+        content: item
+    };
 }) satisfies PageLoad;

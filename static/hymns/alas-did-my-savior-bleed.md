@@ -1,4 +1,4 @@
-## Alas, Did My Savior Bleed
+
 
 Alas! and did my Savior bleed, and did my Sovereign die? 
 Would He devote that sacred head for sinners such as I?
@@ -17,4 +17,3 @@ Dissolve my heart in thankfulness, and melt my eyes to tears
 But drops of grief can ne’er repay the debt of love I owe 
 Here, Lord, I give my self away, tis all that I can do
 
-##### Isaac Watts, Public Domain

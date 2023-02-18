@@ -1,5 +1,3 @@
-## A Mighty Fortress
-
 A mighty fortress is our God, a bulwark never failing 
 Our helper he amid the flood of mortal ills prevailing 
 For still our ancient foe doth seek to work us woe
@@ -23,6 +21,3 @@ The Spirit and the gifts are ours, thru him who with us sideth
 Let goods and kindred go, this mortal life also
 The body they may kill; God’s truth abideth still
 His kingdom is forever
-
-
-##### Martin Luther, Public Domain
