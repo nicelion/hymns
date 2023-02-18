@@ -1,7 +1,9 @@
 <script>
-    import "../app.css";
+    import Analytics from "$lib/componets/Analytics.svelte";
+	import "../app.css";
 </script>
   
+<Analytics />
 
 <div class="flex flex-col ">
 	<header class="font-body bg-black-lighter sticky top-0">

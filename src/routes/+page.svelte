@@ -77,6 +77,10 @@
 
 </script>
 
+<svelte:head>
+  <title>Beers & Bops</title>
+</svelte:head>
+
 <div class="p-2 mb-9">
   <div class="rounded-md bg-gray-100 p-2 space-y-5">
       <input type="text" placeholder="Search for a hymn by number or name" class="input input-bordered w-full" bind:value={searchQuerey} on:input={handleSearch}/>
