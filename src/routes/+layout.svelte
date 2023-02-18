@@ -3,9 +3,9 @@
 </script>
   
 
-<div class="flex flex-col h-screen">
-	<header class="font-body h-24">
-		<nav class="w-full bg-black-lighter text-cornsilk">
+<div class="flex flex-col ">
+	<header class="font-body bg-black-lighter sticky top-0">
+		<nav class="w-full  text-cornsilk">
 			<h1 class="font-bold text-2xl text-center py-3">BEERS & BOPS</h1>
 		</nav>
 	</header>
