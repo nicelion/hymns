@@ -75,7 +75,6 @@
       }
   }
 
-  
 </script>
 
 <div class="p-2 mb-9">
