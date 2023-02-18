@@ -16,7 +16,7 @@
 		<div id="copyright" class="text-center space-y-2 text-xs">
 			<div class="text-center">
 				<p>
-					Developed by <a class="hover:underline" href="https://www.nicelion.com">Nice Lion Technologies LLC.</a>
+					This is an open source project. <a class="underline" target="_blank" href="https://www.github.com/nicelion/hymns">You can contribute here.</a>
 				</p>
 			</div>
 		</div>
