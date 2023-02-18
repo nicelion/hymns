@@ -1,4 +1,4 @@
-## Angel Band
+
 
 My latest sun is sinking fast 
 My race is nearly run My strongest trials now are past 
@@ -18,5 +18,3 @@ I know I’m near the holy ranks
 Of friends and kindred dear 
 I hear the waves on Jordan’s banks 
 The crossing must be near
-
-##### Jefferson Hascall

@@ -26,11 +26,6 @@
     // console.log(fuse.search(""))
 
     const handleSearch = () => {
-        // console.log(fuse.search(searchQuerey).map((h, i) => {
-        //     return {
-        //         ...h.item
-        //     }
-        // }))
 
         if (searchQuerey == "") {
             results = Hymnal
@@ -58,14 +53,14 @@
         <h3 class="text-xl font-bold">Hymn</h3>
     </div>
     <div class="">
-        <p class="font-bold text-xl" >Page</p>
+        <p class="font-bold text-xl" >#</p>
     </div>
 </div>
 {#each results as hymn}
     <a href={`/hymnal/${hymn.slug}`} class="w-full flex justify-between p-5 border-b even:bg-gray-50">
         <div class="">
             <h3 class="text-xl">{hymn.title}</h3>
-            <p class="text-sm">{hymn.author}</p>
+            <!-- <p class="text-sm">{hymn.author}</p> -->
         </div>
         <div class="">
             <p class="font-bold">{hymn.index}</p>
