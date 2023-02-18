@@ -210,7 +210,7 @@ const Hymnal : [Hymn] = [
         slug: "grace-greater-than-our-sin"
     },
     {
-        title: "great-is-thy-faithfulness",
+        title: "Great is Thy Faithfulness",
         index: 39,
         license: "Public Domain",
         author: "Thomas Chisholm",
