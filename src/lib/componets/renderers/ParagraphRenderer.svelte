@@ -15,4 +15,4 @@
 </script>
   
 <!-- <p class="leading-relaxed">{text}</p> -->
-<p class="my-14 text-2xl leading-loose"><slot></slot></p>
+<p class="mb-14 text-2xl leading-loose"><slot></slot></p>

@@ -28,7 +28,7 @@
 </svelte:head>
 
 <div class="px-5">
-    <h2 class="font-bold text-center text-3xl">{data.title}</h2>
+    <h2 class="font-bold text-center text-3xl my-7">{data.title}</h2>
     <SvelteMarkdown source={data.content} renderers={{paragraph: ParagraphRenderer, heading: HeadingRenderer, em: EmRenderer}} options={{gfm: true, breaks: true}}/>
     <p>{data.author}, {data.license}</p>
 </div>
