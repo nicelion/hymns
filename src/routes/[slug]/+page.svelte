@@ -24,7 +24,7 @@
 </script>
 
 <svelte:head>
-    <title>{data.title} | Beers & Bops</title>
+    <title>{data.title} | HYMNS & HOPS</title>
 </svelte:head>
 
 <div class="px-5">

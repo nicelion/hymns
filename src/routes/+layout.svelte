@@ -8,7 +8,7 @@
 <div class="flex flex-col ">
 	<header class="font-body bg-black-lighter sticky top-0">
 		<nav class="w-full  text-cornsilk">
-			<h1 class="font-bold text-2xl text-center py-3">BEERS & BOPS</h1>
+			<h1 class="font-bold text-2xl text-center py-3">HYMNS & HOPS</h1>
 		</nav>
 	</header>
 	<main class="font-body bg-primay-content overflow-y-auto py-4">

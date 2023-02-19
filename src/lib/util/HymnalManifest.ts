@@ -200,7 +200,7 @@ const Hymnal : [Hymn] = [
         index: 37,
         license: "Public Domain",
         author: "Anonymous",
-        slug: "god-rest-ye-merry-gentleman"
+        slug: "god-rest-ye-merry-gentlemen"
     },
     {
         title: "Grace Greater Than Our Sin",
@@ -434,7 +434,7 @@ const Hymnal : [Hymn] = [
         slug: "love-lifted-me"
     },
     {
-        title: "Man of Sorrows!'",
+        title: "Man of Sorrows!",
         index: 71,
         license: "Public Domain",
         author: "Philip Bliss",
@@ -550,14 +550,14 @@ const Hymnal : [Hymn] = [
         index: 87,
         license: "Public Domain",
         author: "Samuel Stennett",
-        slug: "on-jordans-stormy-banks-i-stend"
+        slug: "on-jordans-stormy-banks-i-stand"
     },
     {
         title: "Peace Like a River",
         index: 88,
         license: "Public Domain",
         author: "Anonymous",
-        slug: "peace-live-a-river"
+        slug: "peace-like-a-river"
     },
     {
         title: "Praise to the Lord Almighty",

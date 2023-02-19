@@ -78,7 +78,7 @@
 </script>
 
 <svelte:head>
-  <title>Beers & Bops</title>
+  <title>HYMNS & HOPS</title>
 </svelte:head>
 
 <div class="p-2 mb-9">
