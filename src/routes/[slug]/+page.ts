@@ -15,7 +15,7 @@ import Hymnal from '$lib/util/HymnalManifest';
 import type { Hymn } from '$lib/util/types/Hymnal';
 
 export const load = (async ({params, fetch}) => {
-    console.log(params);
+    // console.log(params);
     const res = await fetch(`/hymns/${params.slug}.md`)
     const item = await res.text()
 
