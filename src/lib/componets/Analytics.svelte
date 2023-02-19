@@ -13,7 +13,7 @@
     }
 </script>
 
-
+<svelte:head>
   <script
     async
     src={`https://www.googletagmanager.com/gtag/js?id=${PUBLIC_MEASUREMENT_ID}`}>
@@ -26,3 +26,4 @@
     gtag('js', new Date())
     gtag('config', PUBLIC_MEASUREMENT_ID)
   </script>
+</svelte:head>
