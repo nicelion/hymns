@@ -1,7 +1,7 @@
 
  <script lang="ts">
     import { page } from '$app/stores'
-	import { PUBLIC_MEASUREMENT_ID } from '$env/static/public';
+	  import { PUBLIC_MEASUREMENT_ID } from '$env/static/public';
     $: {
         if (typeof gtag !== 'undefined') {
             gtag('config', PUBLIC_MEASUREMENT_ID, {
