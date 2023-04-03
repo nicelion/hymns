@@ -28,7 +28,18 @@
 </svelte:head>
 
 <div class="px-5">
-    <h2 class="font-bold text-center text-3xl my-7">{data.title}</h2>
+    <div class="breadcrumbs text-content">
+        <ul>
+          <li><a href="/">Hymns</a></li> 
+          <li>{data.title}</li>
+        </ul>
+    </div>
+</div>
+<div class="px-5">
+    <div class="space-y-2 my-7">
+        <h2 class="font-bold text-center text-3xl">{data.title}</h2>
+        <p class="text-center italic font-light text-2xl">#{data.index}</p>
+    </div>
     <SvelteMarkdown source={data.content} renderers={{paragraph: ParagraphRenderer, heading: HeadingRenderer, em: EmRenderer}} options={{gfm: true, breaks: true}}/>
     <p>{data.author}, {data.license}</p>
 </div>
