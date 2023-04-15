@@ -20,7 +20,7 @@ Otherwise, please email me at ianthompson@nicelion.com.
 
 ## Technical Details
 
-This app is developed using Svelte, SvelteKit and Tailwind CSS. 
+This app is developed using Svelte, SvelteKit and Tailwind CSS. It also implements some components from the DaisyUI component library.
 
 ## Contributing
 
