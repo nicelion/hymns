@@ -14,7 +14,7 @@
 	<main class="font-body bg-primay-content overflow-y-auto py-4 bg-primary-content flex items-center justify-center">
 		<div class="w-full max-w-5xl">		
 			<slot />
-		</div>
+		</div> 
 	</main>
 	<footer id="footer" class="bg-black-lighter flex flex-col text-cornsilk font-body">
 		<p class="text-center text-xs py-2">
