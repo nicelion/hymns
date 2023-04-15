@@ -57,17 +57,18 @@
   let searchQuerey = ""
 
   const fuse = new Fuse(results, {
-      keys: ["title", "index"]
+      keys: ["title", "index"],
+      threshold: 0.3
   })
 
   // console.log(fuse.search(""))
 
   const handleSearch = () => {
 
-      if (searchQuerey == "") {
+      if (searchQuerey.trimEnd() == "") {
           results = Hymnal
       } else {
-          results = fuse.search(searchQuerey).map((h, i) => {
+          results = fuse.search(searchQuerey.trimEnd()).map((h, i) => {
               return {
                   ...h.item
               }
@@ -96,14 +97,27 @@
       <p class="font-bold text-xl" >#</p>
   </div>
 </div>
-{#each results as hymn}
-  <a href={`/${hymn.slug}`} class="w-full flex justify-between p-5 border-b even:bg-gray-50">
-      <div class="">
-          <h3 class="text-xl">{hymn.title}</h3>
-          <!-- <p class="text-sm">{hymn.author}</p> -->
-      </div>
-      <div class="">
-          <p class="font-bold">{hymn.index}</p>
-      </div>
-  </a>
-{/each}
+
+{#if results.length > 0}
+  {#each results as hymn}
+    <a href={`/${hymn.slug}`} class="w-full flex justify-between p-5 border-b even:bg-gray-50">
+        <div class="">
+            <h3 class="text-xl">{hymn.title}</h3>
+            <!-- <p class="text-sm">{hymn.author}</p> -->
+        </div>
+        <div class="">
+            <p class="font-bold">{hymn.index}</p>
+        </div>
+    </a>
+  {/each}
+{:else}
+  <div class="w-full flex justify-between p-5 border-b even:bg-gray-50">
+    <div class="">
+        <h3 class="text-xl">No results found!</h3>
+        <!-- <p class="text-sm">{hymn.author}</p> -->
+    </div>
+    <div class="">
+        <p class="font-bold"></p>
+    </div>
+  </div>
+{/if}
