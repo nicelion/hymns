@@ -56,6 +56,7 @@
         <p class="font-bold text-xl" >#</p>
     </div>
 </div>
+<!-- Hymnal Table -->
 {#each results as hymn}
     <a href={`/hymnal/${hymn.slug}`} class="w-full flex justify-between p-5 border-b even:bg-gray-50">
         <div class="">
